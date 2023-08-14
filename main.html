@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Age Calculator</title>
+    <script
+      type="text/JavaScript"
+      src=" https://MomentJS.com/downloads/moment.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="main.css"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <!-- first div -->
+      <div id="date">
+        <!-- CHILD DIV -->
+        <div>
+          <label for="days">DAY</label>
+          <input
+            type="number"
+            placeholder="DD"
+            id="days"
+            class="input"
+          />
+        </div>
+        <div>
+          <label for="months">MONTH</label>
+          <input
+            type="number"
+            placeholder="MM"
+            id="months"
+            class="input"
+          />
+        </div>
+        <div>
+          <label for="year">YEAR</label>
+          <input
+            type="number"
+            placeholder="YYYY"
+            id="years"
+            class="input"
+          />
+          <div id="icons">
+            <img
+              src="https://marllonlaborne.github.io/age-calculator-app/assets/img/icon-arrow.svg"
+              alt="h"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- second div -->
+      <div id="second">
+        <div>
+          <span
+            id="year-out"
+            class="ans"
+            >- -</span
+          ><span class="subtitle">years</span>
+        </div>
+        <div>
+          <span
+            id="month-out"
+            class="ans"
+            >- -</span
+          ><span class="subtitle">months</span>
+        </div>
+        <div>
+          <span
+            id="day-out"
+            class="ans"
+            >- -</span
+          ><span class="subtitle">days</span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
